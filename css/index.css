@@ -18,7 +18,6 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   margin-top: 10px;
 }
@@ -94,4 +93,31 @@ nav img {
   position: absolute;
   top: 80%;
   left: 43%;
+}
+@media  screen and (max-width:1024px) {
+  .intro{
+    position:absolute;
+    top:10%;
+    left:0%;
+    width:100vw;
+    opacity: 0.2;
+  }
+  .vector-img{
+  
+    left:-20%;
+    position: absolute;
+    top:90%;
+  }
+  body{
+  
+    background-position: right;
+ 
+ width:100%;
+  
+  }
+  .nav-items{
+    display: none;
+  }
+
+  
 }
